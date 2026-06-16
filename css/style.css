@@ -528,7 +528,13 @@ RESPONSIVE
         justify-content:center;
 
     }
+    .promo-section{
 
+        flex-direction:column;
+
+        text-align:center;
+
+    }
 }
 
 @media(max-width:600px){
@@ -635,15 +641,4 @@ EXTRA MOBILE FIX
 .promo-section .hero-image,
 .promo-section .hero-content{
     flex:1;
-}
-@media(max-width:900px){
-
-    .promo-section{
-
-        flex-direction:column;
-
-        text-align:center;
-
-    }
-
 }
