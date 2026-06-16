@@ -626,3 +626,24 @@ EXTRA MOBILE FIX
     background:none;
 
 }
+.promo-section{
+    display:flex;
+    align-items:center;
+    gap:60px;
+}
+
+.promo-section .hero-image,
+.promo-section .hero-content{
+    flex:1;
+}
+@media(max-width:900px){
+
+    .promo-section{
+
+        flex-direction:column;
+
+        text-align:center;
+
+    }
+
+}
