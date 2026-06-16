@@ -617,3 +617,12 @@ EXTRA MOBILE FIX
     }
 
 }
+.section .hero{
+
+    min-height:auto;
+
+    padding:0;
+
+    background:none;
+
+}
